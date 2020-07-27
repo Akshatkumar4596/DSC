@@ -78,6 +78,10 @@
     transform: scale(1.009);
 }
 
+.hamburger{
+    display: none;
+}
+
 /* Home Section */
 
 #home {

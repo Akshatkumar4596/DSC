@@ -1,21 +1,59 @@
 /* Navigation */
 #navbar {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-#navbar ul li a{
-    font-size: 1.1rem;
-    padding:0px;
+.nav-links{
+    position: fixed;
+    top:0;
+    background-color: rgb(53, 54, 58);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    clip-path:circle(0px at 90% -10%);
+    -webkit-clip-path:circle(0px at 100% -10%);
+    transition: all 1s ease;
+    pointer-events: none;
+}
+.nav-links li a{
+    font-size: 1.3rem;
+    /* padding:0px;
     padding-bottom: 8px;
     margin: 5px;
-    height: 30px;
+    height: 30px; */
+}
+.nav-links.open{
+    clip-path: circle(700px);
+    pointer-events: all;
 }
 
 #logo{
+    margin-left: 0px;
     margin-bottom: 0px;
 }
 #logo p{
     font-size: 1.2rem;
 }
+
+.hamburger{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.menu-icon{
+    margin: auto 20px;
+    height:50%;
+    /* background-color: white; */
+    filter: invert(1);
+    cursor: pointer;
+    z-index: 2;
+}
+
+
 
 /* Home section */
 #home {
@@ -49,6 +87,9 @@
     height:200px;
 }
 
+#client{
+    z-index: -2;
+}
 
 /* Clients section */
 #clients {
@@ -74,6 +115,9 @@
     }
     #client{
         height: 200px;
+    }
+    .menu-icon{
+    height: 40%;
     }
 }
 
