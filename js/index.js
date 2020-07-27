@@ -14,7 +14,12 @@ window.onscroll = function(e) {
 
 var navlink = document.querySelector(".nav-links");
 var menu = document.querySelector(".menu-icon");
+var card = document.querySelector(".card");
 
 menu.addEventListener("click",function(){
     navlink.classList.toggle('open');
+})
+
+card.addEventListener("click",function(){
+    card.classList.toggle("is-flipped");
 })
