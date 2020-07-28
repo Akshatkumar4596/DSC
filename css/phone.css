@@ -42,7 +42,7 @@
 .hamburger{
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 10vh;
 }
 
 .menu-icon{
@@ -150,6 +150,10 @@
     .client-item{
         padding: 17px;
     }
+    #logo p{
+        font-size: 20px;
+    }
+
 }
 
 

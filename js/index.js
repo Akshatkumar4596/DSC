@@ -14,12 +14,22 @@ window.onscroll = function(e) {
 
 var navlink = document.querySelector(".nav-links");
 var menu = document.querySelector(".menu-icon");
-var card = document.querySelector(".card");
+var cards = document.querySelectorAll(".card")
+var card1 = cards[0]
+var card2 = cards[1]
+var card3 = cards[2]
+
 
 menu.addEventListener("click",function(){
     navlink.classList.toggle('open');
 })
 
-card.addEventListener("click",function(){
-    card.classList.toggle("is-flipped");
+card1.addEventListener("click",function(){
+    card1.classList.toggle("is-flipped");
+})
+card2.addEventListener("click",function(){
+    card2.classList.toggle("is-flipped");
+})
+card3.addEventListener("click",function(){
+    card3.classList.toggle("is-flipped");
 })

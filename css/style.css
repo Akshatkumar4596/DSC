@@ -26,25 +26,28 @@
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     width: 100%;
     height: 10vh;
-    z-index:10;
+    z-index: 10;
+
 }
 
 /* Logo and image */
 #logo {
-    margin: 10px 34px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 10vh;
 }
 
 #logo p{
     display: inline-block;
-    font-weight: 900;
+    font-weight: 600;
+    color: white;
+    font-size: 1.4rem;
 
 }
 
@@ -70,8 +73,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 65px;
-    padding: 9px 22px;
+    height: 10vh;
+    padding: 0px 22px;
 }
 
 #navbar ul li a:hover {
