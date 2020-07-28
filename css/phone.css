@@ -124,7 +124,7 @@
 
 @media only screen and (max-height: 679px){
     #navbar ul li a{
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -154,6 +154,9 @@
         font-size: 20px;
     }
 
+    #navbar ul li a{
+        font-size: 20px;
+    }
 }
 
 
