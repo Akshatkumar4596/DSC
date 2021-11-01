@@ -1,2 +1,2 @@
 # DSC
-# https://akshatoxy.github.io/DSC/index
+# https://akshatkumar4596.github.io/DSC/
